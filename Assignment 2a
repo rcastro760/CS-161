@@ -1,0 +1,23 @@
+# Author: Rafael Castro
+# GitHub Username: rcastro760
+# Date : 8/12/24
+# Description: Program is written to ask the user for 5 float values and will print out the average value of those 5 values.
+
+user_input = float(input("Enter the first decimal number: "))
+num1 = user_input
+
+user_input = float(input("Enter the second decimal number: "))
+num2 = user_input
+
+user_input = float(input("Enter the third decimal number: "))
+num3 = user_input
+
+user_input = float(input("Enter the fourth decimal number: "))
+num4 = user_input
+
+user_input = float(input("Enter the fifth decimal number: "))
+num5 = user_input
+
+average = (num1 + num2 + num3 + num4 + num5) / 5
+
+print(f"The average of the 5 numbers is: {average}")
